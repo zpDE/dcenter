@@ -1,7 +1,9 @@
 package ti.epz.dcenter.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity(name = "servicio")
 public class Servicio {
     @Id
