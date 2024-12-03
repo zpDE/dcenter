@@ -25,7 +25,10 @@ public class MaquinaVirtual {
     private int vcpu;
 
     @Column
-    private int ram;
+    private String ram;
+
+    @Column
+    private String capacidad_almacenamiento;
 
     @ManyToOne
     private Servidor servidor;

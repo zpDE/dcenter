@@ -26,10 +26,10 @@ public class Servidor {
     private Integer nucleos;
 
     @Column
-    private Integer memoria;
+    private String memoria;
 
     @Column
-    private Integer capacidad_almacenamiento;
+    private String capacidad_almacenamiento;
 
     @Column
     private String hypervisor;
