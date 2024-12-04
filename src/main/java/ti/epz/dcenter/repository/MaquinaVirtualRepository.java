@@ -7,5 +7,5 @@ import ti.epz.dcenter.entity.MaquinaVirtual;
 
 public interface MaquinaVirtualRepository extends JpaRepository<MaquinaVirtual, Integer> {
 
-    List<MaquinaVirtual> findMaquinaVirtualByServidorId(Integer servidor_id);
+    List<MaquinaVirtual> findByServidorId(Integer servidor_id);
 }

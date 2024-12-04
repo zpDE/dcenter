@@ -27,5 +27,10 @@ public class MaquinaVirtualService {
         return maquinaVirtualRepository.save(maquinaVirtual);
     }
 
+    public List<MaquinaVirtual> findByServidorId(Integer id_servidor) {
+        return maquinaVirtualRepository.findByServidorId(id_servidor);
+
+    }
+
 
 }
